@@ -1,7 +1,7 @@
-# AI PDF Note Taker
+# AskMyPDF-AI
 
 ## Overview
-AI PDF Note Taker is an intelligent application designed to help users take notes on PDFs using AI-powered capabilities. It leverages modern web technologies and AI frameworks to provide an enhanced note-taking experience.
+AskMyPDF-AI is an intelligent application designed to help users take notes on PDFs using AI-powered capabilities. It leverages modern web technologies and AI frameworks to provide an enhanced note-taking experience.
 
 ## Tech Stack
 - **Next.js** - Framework for building the frontend and server-side rendering.
@@ -22,10 +22,10 @@ AI PDF Note Taker is an intelligent application designed to help users take note
 - AI summarization and assistance with Gemini and LangChain.
 
 ## Developer
-This project was developed by **Mohammad Armaan**. You can check out his portfolio here: [Mohammad Armaan](https://mohammadarmaan.netlify.app)
+This project was developed by **Chetan Sharma**. You can check out his portfolio here: [Chetan Sharma](https://chetan309.netlify.app/)
 
 ## Deployment
-The project is live and accessible at: [AI PDF Note Taker](https://aipdfnotetaker.vercel.app)
+The project is live and accessible at: [AskMyPDF-AI](https://askmypdf-one.vercel.app/)
 
 ## Contributing
 Contributions are welcome! Feel free to fork the repository and submit a pull request with your improvements.
