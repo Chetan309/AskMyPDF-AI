@@ -25,7 +25,7 @@ AskMyPDF-AI is an intelligent application designed to help users take notes on P
 This project was developed by **Chetan Sharma**. You can check out his portfolio here: [Chetan Sharma](https://chetan309.netlify.app/)
 
 ## Deployment
-The project is live and accessible at: [AskMyPDF-AI](https://askmypdf-one.vercel.app/)
+The project is live and accessible at: [AskMyPDF-AI](https://ask-my-pdf-ai.vercel.app/)
 
 ## Contributing
 Contributions are welcome! Feel free to fork the repository and submit a pull request with your improvements.
