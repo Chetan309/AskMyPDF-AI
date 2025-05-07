@@ -7,25 +7,27 @@ import { redirect } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "../components/ui/button";
+import { useRouter } from "next/navigation";
 
 export default function Home() {
   const { user } = useUser();
   const createUser = useMutation(api.user.createUser);
 
-  function getStartedHandler() {
-    if (user) {
-      redirect("/dashboard");
-    } else {
-      redirect("/sign-in");
-    }
+  const router = useRouter();
+
+function getStartedHandler() {
+  if (user) {
+    router.push("/dashboard");
+  } else {
+    router.push("/sign-in");
   }
-  function aboutDeveloperHandler() {
-    if (user) {
-      redirect("/dashboard");
-    } else {
-      redirect("/aboutdeveloper");
-    }
-  }
+}
+
+function aboutDeveloperHandler() {
+  redirect("/aboutdeveloper");
+}
+
+
 
   useEffect(() => {
     user && checkUser();

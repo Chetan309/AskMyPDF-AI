@@ -13,7 +13,7 @@ const page = () => {
     
     {/* Centered Title */}
     <div className="absolute left-1/2 transform -translate-x-1/2 text-2xl font-semibold">
-      <a href="/" className="hover:text-gray-200 transition-all">About Developer!!</a>
+    <span className="hover:text-gray-200 transition-all cursor-default">About Developer!!</span>
     </div>
           {/* Mobile Menu Icon */}
           <div className="md:hidden">
