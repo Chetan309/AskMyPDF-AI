@@ -24,10 +24,8 @@ function getStartedHandler() {
 }
 
 function aboutDeveloperHandler() {
-  redirect("/aboutdeveloper");
+  router.push("/aboutdeveloper");
 }
-
-
 
   useEffect(() => {
     user && checkUser();
